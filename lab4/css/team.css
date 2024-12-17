@@ -5,9 +5,17 @@
 }
 
 .main-img {
-    width: 40%;
-    margin: auto;
+    /*width: 40%;*/
+    /*margin: auto;*/
     align-self: center;
+    display: flex;
+    justify-content: center;
+    /*position: relative;*/
+}
+
+.main-img img{
+    width: 25%;
+    margin: 5px;
 }
 
 table {
