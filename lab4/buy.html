@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoName510</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/buy.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+        <nav>
+            <div class="nav-container">
+                <a href="index.html">[\]o[\]ame510</a>
+                <a href="team.html">О команде</a>
+                <a href="solutions.html">Решения</a>
+                <a href="buy.html">Заказать</a>
+            </div>
+        </nav>
+
+        <main>
+            <div class="main-container">
+                <div class="form-container">
+                    <form class="purchase-form">
+                        <h2>Оформление заявки</h2>
+                        <div class="form-group">
+                            <label for="name">Имя:</label>
+                            <input type="text" id="name" name="name" placeholder="Введите ФИО" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Электронная почта:</label>
+                            <input type="email" id="email" name="email" placeholder="Введите вашу почту" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Телефон:</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+7 (XXX) XXX-XX-XX" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="solution">Выбор решения:</label>
+                            <select id="solution" name="solution" required>
+                                <option value="" disabled selected>Выберите решение</option>
+                                <option value="robot">Программно-аппаратный комплекс</option>
+                                <option value="software">Программное обеспечение</option>
+                                <option value="custom">Индивидуальное решение</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="comment">Комментарий:</label>
+                            <textarea id="comment" name="comment" rows="4" placeholder="Введите дополнительные пожелания"></textarea>
+                        </div>
+                        <div class="form-actions">
+                            <button type="submit">Отправить заявку</button>
+                            <button type="reset">Очистить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <a href="index.html">[\]o[\]ame510</a>
+                </div>
+                <div class="footer-nav">
+                    <a href="index.html">Главная</a>
+                    <a href="team.html">О команде</a>
+                    <a href="solutions.html">Решения</a>
+                    <a href="buy.html">Заказать</a>
+                </div>
+                <p class="footer-copyright">© 2024 [\]o[\]ame510. Все права защищены.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/form.js"></script>
+</body>
+</html>
